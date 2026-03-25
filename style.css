@@ -1,0 +1,73 @@
+/* ── Global ────────────────────────────────────── */
+body {
+  background-color: #f0f2f5;
+  font-family: Georgia, serif;
+  margin: 0;
+  padding: 40px;
+}
+
+/* ── Title banner ───────────────────────────────── */
+header {
+  background-color: #2c3e50;
+  padding: 20px 30px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  color: #e8d44d;
+  margin: 0;
+}
+
+/* ── Message list ───────────────────────────────── */
+ul {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px 40px;
+  margin-bottom: 30px;
+}
+
+li {
+  margin: 10px 0;
+  color: #333333;
+}
+
+/* ── Post area ──────────────────────────────────── */
+textarea {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #2c3e50;
+  color: #ffffff;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e8d44d;
+  color: #2c3e50;
+}
+
+/* ── Dark mode ──────────────────────────────────── */
+body.dark {
+  background-color: #1a1a2e;
+  color: #e0e0e0;
+}
+
+body.dark header {
+  background-color: #16213e;
+}
+
+body.dark ul {
+  background-color: #0f3460;
+}
